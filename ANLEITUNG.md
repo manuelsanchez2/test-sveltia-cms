@@ -16,8 +16,9 @@ selbst ändern können — ganz ohne technische Kenntnisse.
 2. Ändern Sie die gewünschten Felder.
 3. Klicken Sie oben rechts auf **„Save“** (Speichern).
 
-> **Gut zu wissen:** Ihre Änderungen werden zunächst auf einer **Vorschau-Seite**
-> sichtbar, nicht sofort öffentlich. So können Sie in Ruhe prüfen, bevor etwas live geht.
+> **Gut zu wissen:** Nach dem Speichern werden Ihre Änderungen automatisch
+> veröffentlicht und erscheinen wenige Minuten später auf der Website. Prüfen Sie
+> daher am besten kurz, ob alles stimmt, bevor Sie speichern.
 
 ## 3. Wo finde ich was?
 
@@ -40,14 +41,14 @@ selbst ändern können — ganz ohne technische Kenntnisse.
 
 _Tipp:_ Verwenden Sie möglichst Querformat-Fotos in guter Auflösung (mind. 1200 px breit).
 
-## 5. Änderungen veröffentlichen (live schalten)
+## 5. Änderungen gehen automatisch live
 
-Nach dem Speichern sind die Änderungen auf der **Vorschau-URL** sichtbar.
-Wenn alles passt, wird die Freigabe von uns (oder per Klick in GitHub) übernommen —
-dann erscheinen die Änderungen auf der öffentlichen Website.
+Sobald Sie auf **„Save“** klicken, wird Ihre Änderung veröffentlicht. Die Website
+wird im Hintergrund neu erstellt und ist nach wenigen Minuten öffentlich sichtbar.
+Ein zusätzlicher Freigabe-Schritt ist nicht nötig.
 
-> Möchten Sie diesen letzten Schritt selbst übernehmen können? Sagen Sie uns Bescheid,
-> wir richten dafür gerne einen einfachen „Veröffentlichen“-Knopf ein.
+> Tipp: Laden Sie die Website nach ein paar Minuten neu (ggf. mit Strg/Cmd + Shift + R),
+> falls Sie die Änderung noch nicht sehen.
 
 ## Fragen?
 

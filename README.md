@@ -57,9 +57,9 @@ direkt in die Dateien unter `content/`.)
 Netlify ist mit dem Repository verbunden:
 
 - `main` → Produktion
-- `preview` → Branch-Deploy mit fester Vorschau-URL (hier bearbeitet die Praxis)
 
-Freigeben = Pull Request `preview → main` mergen.
+Die Praxis bearbeitet Inhalte im CMS (`/admin`); jede Änderung wird direkt nach
+`main` committet und von Netlify automatisch live gestellt – ohne Zwischenschritt.
 
 ### Vor dem Livegang anzupassen
 
