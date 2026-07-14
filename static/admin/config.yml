@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: manuelsanchez2/test-sveltia-cms # GitHub-Repository der Praxis
-  branch: preview # Die Praxis bearbeitet hier; Deploy-Preview + PR → main
+  branch: main # Änderungen werden direkt in die Produktion (main) übernommen
   # Auth über sveltia-cms-auth (Cloudflare Worker) oder GitHub OAuth App:
   # base_url: https://auth.example.com
 
