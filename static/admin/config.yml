@@ -1,0 +1,212 @@
+backend:
+  name: github
+  repo: usuario/praxis-hamburg # ← anpassen: GitHub-Repository der Praxis
+  branch: preview # Die Praxis bearbeitet hier; Deploy-Preview + PR → main
+  # Auth über sveltia-cms-auth (Cloudflare Worker) oder GitHub OAuth App:
+  # base_url: https://auth.example.com
+
+# Lokales Bearbeiten ohne OAuth: `npx @sveltia/cms-proxy-server` starten,
+# dann /admin unter localhost aufrufen.
+local_backend: true
+
+media_folder: static/uploads
+public_folder: /uploads
+
+# Oberfläche auf Deutsch
+i18n:
+  structure: single_file
+  locales: [de]
+  default_locale: de
+
+locale: de
+
+collections:
+  # ---------------------------------------------------------------------------
+  - name: settings
+    label: Einstellungen
+    description: Globale Angaben, die überall auf der Website verwendet werden.
+    files:
+      - name: general
+        label: Allgemein
+        file: content/settings/general.json
+        fields:
+          - { name: praxisName, label: Name der Praxis, widget: string }
+          - { name: claim, label: Untertitel / Claim, widget: string }
+          - name: adresse
+            label: Adresse
+            widget: object
+            fields:
+              - { name: strasse, label: Straße und Hausnummer, widget: string }
+              - { name: plz, label: PLZ, widget: string }
+              - { name: stadt, label: Stadt, widget: string }
+          - { name: telefon, label: Telefon, widget: string }
+          - { name: fax, label: Fax, widget: string, required: false }
+          - { name: email, label: E-Mail, widget: string }
+          - name: sprechzeiten
+            label: Sprechzeiten
+            widget: list
+            label_singular: Sprechzeit
+            summary: '{{fields.tage}} {{fields.von}}–{{fields.bis}}'
+            fields:
+              - { name: tage, label: Tage, widget: string, hint: 'z. B. Mo–Do' }
+              - { name: von, label: Von, widget: string, required: false }
+              - { name: bis, label: Bis, widget: string, required: false }
+              - { name: hinweis, label: Hinweis, widget: string, required: false }
+          - { name: terminLink, label: Termin-Link (Doctolib o. Ä.), widget: string, required: false }
+          - { name: notdienstHinweis, label: Notdienst-Hinweis, widget: text }
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: titleSuffix, label: Titel-Zusatz, widget: string }
+              - { name: description, label: Standard-Beschreibung, widget: text }
+              - { name: ogImage, label: Vorschaubild (OG), widget: image, required: false }
+
+      - name: social
+        label: Social Media
+        file: content/settings/social.json
+        fields:
+          - name: links
+            label: Links
+            widget: list
+            label_singular: Link
+            summary: '{{fields.plattform}}'
+            fields:
+              - name: plattform
+                label: Plattform
+                widget: select
+                options: [instagram, facebook, linkedin, youtube, whatsapp, jameda, doctolib]
+              - { name: url, label: URL, widget: string, required: false }
+
+  # ---------------------------------------------------------------------------
+  - name: pages
+    label: Seiten
+    description: Die Texte der einzelnen Seiten.
+    files:
+      - name: startseite
+        label: Startseite
+        file: content/pages/startseite.json
+        fields:
+          - name: hero
+            label: Kopfbereich (Hero)
+            widget: object
+            fields:
+              - { name: eyebrow, label: Kleiner Titel oben, widget: string }
+              - { name: titel, label: Überschrift, widget: string }
+              - { name: untertitel, label: Untertitel, widget: text }
+              - { name: primaryCtaText, label: Button 1 (Termin), widget: string }
+              - { name: secondaryCtaText, label: Button 2 (Leistungen), widget: string }
+          - name: leistungenTeaser
+            label: Leistungen-Vorschau
+            widget: object
+            fields:
+              - { name: eyebrow, label: Kleiner Titel oben, widget: string }
+              - { name: titel, label: Überschrift, widget: string }
+              - { name: text, label: Text, widget: text }
+              - name: highlights
+                label: Highlights
+                widget: list
+                fields:
+                  - { name: titel, label: Titel, widget: string }
+                  - { name: text, label: Text, widget: text }
+          - name: zitat
+            label: Zitat
+            widget: object
+            fields:
+              - { name: text, label: Zitat, widget: text }
+              - { name: quelle, label: Quelle, widget: string }
+          - name: ctaAbschnitt
+            label: Abschluss-Aufruf
+            widget: object
+            fields:
+              - { name: titel, label: Überschrift, widget: string }
+              - { name: text, label: Text, widget: text }
+              - { name: ctaText, label: Button-Text, widget: string }
+
+      - name: leistungen
+        label: Leistungen
+        file: content/pages/leistungen.json
+        fields:
+          - { name: eyebrow, label: Kleiner Titel oben, widget: string }
+          - { name: titel, label: Überschrift, widget: string }
+          - { name: einleitung, label: Einleitung, widget: text }
+          - name: leistungen
+            label: Leistungen
+            widget: list
+            label_singular: Leistung
+            summary: '{{fields.titel}}'
+            fields:
+              - { name: titel, label: Titel, widget: string }
+              - { name: beschreibung, label: Beschreibung, widget: text }
+
+      - name: praxis
+        label: Die Praxis
+        file: content/pages/praxis.json
+        fields:
+          - { name: eyebrow, label: Kleiner Titel oben, widget: string }
+          - { name: titel, label: Überschrift, widget: string }
+          - { name: einleitung, label: Einleitung, widget: text }
+          - name: abschnitte
+            label: Abschnitte
+            widget: list
+            label_singular: Abschnitt
+            summary: '{{fields.titel}}'
+            fields:
+              - { name: titel, label: Titel, widget: string }
+              - { name: text, label: Text, widget: text }
+              - { name: bild, label: Bild, widget: image, required: false }
+
+      - name: team
+        label: Team
+        file: content/pages/team.json
+        fields:
+          - { name: eyebrow, label: Kleiner Titel oben, widget: string }
+          - { name: titel, label: Überschrift, widget: string }
+          - { name: einleitung, label: Einleitung, widget: text }
+          - name: mitglieder
+            label: Team-Mitglieder
+            widget: list
+            label_singular: Mitglied
+            summary: '{{fields.name}}'
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: rolle, label: Funktion / Titel, widget: string }
+              - { name: qualifikationen, label: Qualifikationen, widget: text }
+              - { name: foto, label: Foto, widget: image, required: false }
+
+      - name: kontakt
+        label: Kontakt & Anfahrt
+        file: content/pages/kontakt.json
+        fields:
+          - { name: eyebrow, label: Kleiner Titel oben, widget: string }
+          - { name: titel, label: Überschrift, widget: string }
+          - { name: einleitung, label: Einleitung, widget: text }
+          - name: anfahrt
+            label: Anfahrt
+            widget: object
+            fields:
+              - { name: titel, label: Überschrift, widget: string }
+              - { name: mitUBahn, label: Mit der U-Bahn, widget: text }
+              - { name: mitBus, label: Mit dem Bus, widget: text }
+              - { name: mitAuto, label: Mit dem Auto, widget: text }
+              - { name: hinweis, label: Hinweis, widget: string, required: false }
+          - name: karteEmbed
+            label: Karten-Einbettung (HTML-iframe)
+            widget: text
+            required: false
+            hint: Optional. Einbettungscode einer Karte, z. B. OpenStreetMap.
+
+  # ---------------------------------------------------------------------------
+  - name: legal
+    label: Rechtliches
+    description: Impressum und Datenschutzerklärung.
+    folder: content/legal
+    extension: md
+    format: frontmatter
+    create: false
+    delete: false
+    identifier_field: titel
+    summary: '{{fields.titel}}'
+    fields:
+      - { name: titel, label: Titel, widget: string }
+      - { name: body, label: Inhalt, widget: markdown }

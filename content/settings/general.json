@@ -1,0 +1,25 @@
+{
+	"praxisName": "Praxis Dr. med. Katharina Bergmann",
+	"claim": "Hausärztliche Versorgung in Hamburg-Winterhude",
+	"adresse": {
+		"strasse": "Mühlenkamp 12",
+		"plz": "22303",
+		"stadt": "Hamburg"
+	},
+	"telefon": "040 279 41 80",
+	"fax": "040 279 41 89",
+	"email": "praxis@dr-bergmann-hamburg.de",
+	"sprechzeiten": [
+		{ "tage": "Mo, Di, Do", "von": "08:00", "bis": "12:00", "hinweis": "" },
+		{ "tage": "Mo, Di, Do", "von": "15:00", "bis": "18:00", "hinweis": "" },
+		{ "tage": "Mi, Fr", "von": "08:00", "bis": "12:00", "hinweis": "" },
+		{ "tage": "Nachmittags", "von": "", "bis": "", "hinweis": "nach Vereinbarung" }
+	],
+	"terminLink": "https://www.doctolib.de/",
+	"notdienstHinweis": "Außerhalb der Sprechzeiten erreichen Sie den ärztlichen Bereitschaftsdienst unter der bundesweiten Rufnummer 116 117. In lebensbedrohlichen Notfällen wählen Sie bitte den Notruf 112.",
+	"seo": {
+		"titleSuffix": "Praxis Dr. Bergmann · Hamburg",
+		"description": "Hausärztliche Praxis Dr. med. Katharina Bergmann in Hamburg-Winterhude. Allgemeinmedizin, Vorsorge und persönliche Betreuung. Jetzt Termin vereinbaren.",
+		"ogImage": "/uploads/og-default.jpg"
+	}
+}

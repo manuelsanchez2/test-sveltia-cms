@@ -1,0 +1,13 @@
+{
+	"eyebrow": "Kontakt & Anfahrt",
+	"titel": "So erreichen Sie uns",
+	"einleitung": "Wir freuen uns auf Ihren Besuch. Für Termine erreichen Sie uns am besten telefonisch zu den Sprechzeiten oder online.",
+	"anfahrt": {
+		"titel": "Anfahrt",
+		"mitUBahn": "U3 bis Sierichstraße, von dort etwa 5 Minuten Fußweg entlang des Mühlenkamps.",
+		"mitBus": "Buslinie 6 und 17, Haltestelle Mühlenkamp – direkt vor der Praxis.",
+		"mitAuto": "Begrenzte Parkmöglichkeiten am Mühlenkamp; Parkhaus Winterhuder Marktplatz in 3 Minuten fußläufig erreichbar.",
+		"hinweis": "Die Praxis befindet sich im Erdgeschoss und ist barrierearm zugänglich."
+	},
+	"karteEmbed": ""
+}

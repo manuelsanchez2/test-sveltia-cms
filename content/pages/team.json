@@ -1,0 +1,25 @@
+{
+	"eyebrow": "Team",
+	"titel": "Menschen, die sich kümmern",
+	"einleitung": "Hinter unserer Praxis steht ein eingespieltes Team aus erfahrenen Fachkräften, das Sie mit Kompetenz und Herz begleitet.",
+	"mitglieder": [
+		{
+			"name": "Dr. med. Katharina Bergmann",
+			"rolle": "Fachärztin für Allgemeinmedizin",
+			"qualifikationen": "Zusatzbezeichnung Notfallmedizin · DMP Diabetes und KHK · Reisemedizinische Beratung",
+			"foto": ""
+		},
+		{
+			"name": "Jonas Petersen",
+			"rolle": "Medizinischer Fachangestellter",
+			"qualifikationen": "Wundmanagement · Labor · Praxisorganisation",
+			"foto": ""
+		},
+		{
+			"name": "Miriam Kowalski",
+			"rolle": "Medizinische Fachangestellte",
+			"qualifikationen": "Impfmanagement · EKG · Empfang und Terminkoordination",
+			"foto": ""
+		}
+	]
+}

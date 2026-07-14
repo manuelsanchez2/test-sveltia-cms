@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "eyebrow": "Hausarztpraxis in Winterhude",
+    "titel": "Medizin mit Ruhe, Zeit und Vertrauen.",
+    "untertitel": "Wir begleiten Sie und Ihre Familie hausärztlich – von der Vorsorge bis zur Behandlung chronischer Erkrankungen. Persönlich, gründlich und auf Augenhöhe.",
+    "primaryCtaText": "Termin vereinbaren",
+    "secondaryCtaText": "Unsere Leistungen"
+  },
+  "leistungenTeaser": {
+    "eyebrow": "Leistungen",
+    "titel": "Wofür wir da sind",
+    "text": "Ein Überblick über die Schwerpunkte unserer Praxis. Alle Leistungen finden Sie im Detail auf der Seite Leistungen.",
+    "highlights": [
+      {
+        "titel": "Hausärztliche Grundversorgung",
+        "text": "Erste Anlaufstelle bei akuten und chronischen Beschwerden."
+      },
+      {
+        "titel": "Vorsorge & Check-up",
+        "text": "Gesundheits-Check, Hautkrebs-Screening und Impfberatung."
+      },
+      {
+        "titel": "Chronikerbetreuung (DMP)",
+        "text": "Strukturierte Betreuung bei Diabetes, Asthma und KHK."
+      }
+    ]
+  },
+  "zitat": {
+    "text": "Gute Medizin beginnt mit Zuhören. Wir nehmen uns die Zeit, die Ihre Gesundheit verdient.",
+    "quelle": "Dr. med. Katharina Bergmann"
+  },
+  "ctaAbschnitt": {
+    "titel": "Wir freuen uns auf Sie",
+    "text": "Vereinbaren Sie bequem online oder telefonisch einen Termin. Neue Patientinnen und Patienten sind herzlich willkommen.",
+    "ctaText": "Jetzt Termin vereinbaren"
+  }
+}

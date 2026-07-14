@@ -1,0 +1,22 @@
+{
+	"eyebrow": "Die Praxis",
+	"titel": "Ein Ort zum Durchatmen",
+	"einleitung": "Unsere Praxis im Herzen Winterhudes verbindet moderne Medizin mit einer ruhigen, freundlichen Atmosphäre. Wir möchten, dass Sie sich bei uns gut aufgehoben fühlen.",
+	"abschnitte": [
+		{
+			"titel": "Unsere Philosophie",
+			"text": "Wir glauben an eine Medizin, die den Menschen in den Mittelpunkt stellt. Statt Hektik und kurzer Taktung nehmen wir uns Zeit für ein ausführliches Gespräch und eine sorgfältige Untersuchung. So entsteht Vertrauen – die Grundlage jeder guten Behandlung.",
+			"bild": ""
+		},
+		{
+			"titel": "Ausstattung",
+			"text": "Unsere Räume sind hell, barrierearm und modern ausgestattet. Von digitaler Diagnostik über EKG bis zum eigenen Labor arbeiten wir mit zeitgemäßer Technik – immer im Dienst einer präzisen und schonenden Behandlung.",
+			"bild": ""
+		},
+		{
+			"titel": "Barrierefreiheit",
+			"text": "Die Praxis ist ebenerdig erreichbar und für Rollstuhlfahrende sowie Menschen mit Gehhilfe zugänglich. Bei Bedarf unterstützen wir Sie gerne beim Zugang.",
+			"bild": ""
+		}
+	]
+}

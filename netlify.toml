@@ -1,0 +1,18 @@
+[build]
+  command = "pnpm build"
+  publish = "build"
+
+# Produktion: der `main`-Branch.
+# Die Praxis bearbeitet Inhalte im `preview`-Branch (siehe static/admin/config.yml);
+# Netlify erstellt daraus einen Branch-Deploy mit fester Vorschau-URL.
+[context.production]
+  command = "pnpm build"
+
+[context.branch-deploy]
+  command = "pnpm build"
+
+# /admin soll nicht von Suchmaschinen indexiert werden.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
