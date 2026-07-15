@@ -4,35 +4,39 @@ titel: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-Praxis Dr. med. Katharina Bergmann
-Mühlenkamp 12
-22303 Hamburg
+Dr. med. Katrin Pelka
+Fachärztin für Allgemeinmedizin
+Bahrenfelder Straße 244
+22765 Hamburg
 
 ## Kontakt
 
-Telefon: 040 279 41 80
-Fax: 040 279 41 89
-E-Mail: praxis@dr-bergmann-hamburg.de
+Telefon: 040 5330 3040
+Fax: 040 5330 3041
+E-Mail: dr.pelka@hamburg.de
 
 ## Berufsbezeichnung und berufsrechtliche Regelungen
 
 **Berufsbezeichnung:** Ärztin (verliehen in der Bundesrepublik Deutschland)
 
-**Zuständige Kammer:** Ärztekammer Hamburg, Weidestraße 122b, 22083 Hamburg
+**Zuständige Kammer:** Ärztekammer Hamburg, Humboldtstraße 56, 22083 Hamburg
 
-**Kassenärztliche Vereinigung:** Kassenärztliche Vereinigung Hamburg, Humboldtstraße 56, 22083 Hamburg
+**Kassenärztliche Vereinigung:** Kassenärztliche Vereinigung Hamburg (KVH), Humboldtstraße 56, 22083 Hamburg
 
 **Es gelten folgende berufsrechtliche Regelungen:**
 
-- Berufsordnung für die Hamburger Ärztinnen und Ärzte
-- Heilberufe-Kammergesetz (HmbKGH)
-- (Muster-)Berufsordnung für die in Deutschland tätigen Ärztinnen und Ärzte
+- Berufsordnung der Ärztekammer Hamburg
+- Hamburgisches Kammergesetz für die Heilberufe (HmbKGH)
 
-Die Regelungen sind einsehbar auf der Website der Ärztekammer Hamburg unter www.aerztekammer-hamburg.org.
+Die Regelungen sind einsehbar auf der Website der Ärztekammer Hamburg unter www.aerztekammer-hamburg.de.
+
+## Berufshaftpflichtversicherung
+
+HDI Gerling
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
-Dr. med. Katharina Bergmann, Anschrift wie oben.
+Dr. med. Katrin Pelka, Anschrift wie oben.
 
 ## Haftung für Inhalte
 

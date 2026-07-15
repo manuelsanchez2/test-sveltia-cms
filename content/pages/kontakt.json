@@ -1,13 +1,13 @@
 {
 	"eyebrow": "Kontakt & Anfahrt",
 	"titel": "So erreichen Sie uns",
-	"einleitung": "Wir freuen uns auf Ihren Besuch. Für Termine erreichen Sie uns am besten telefonisch zu den Sprechzeiten oder online.",
+	"einleitung": "Wir freuen uns auf Ihren Besuch. Für Termine erreichen Sie uns am besten telefonisch zu den Sprechzeiten oder online über 116117.de. Für gesetzlich Versicherte bieten wir zudem eine Video-Sprechstunde an.",
 	"anfahrt": {
 		"titel": "Anfahrt",
-		"mitUBahn": "U3 bis Sierichstraße, von dort etwa 5 Minuten Fußweg entlang des Mühlenkamps.",
-		"mitBus": "Buslinie 6 und 17, Haltestelle Mühlenkamp – direkt vor der Praxis.",
-		"mitAuto": "Begrenzte Parkmöglichkeiten am Mühlenkamp; Parkhaus Winterhuder Marktplatz in 3 Minuten fußläufig erreichbar.",
-		"hinweis": "Die Praxis befindet sich im Erdgeschoss und ist barrierearm zugänglich."
+		"mitUBahn": "Mit der S-Bahn S1 bis Bahnhof Ottensen, von dort sind es nur wenige Minuten Fußweg zur Praxis.",
+		"mitBus": "Mit der Buslinie 2 gelangen Sie in unmittelbare Nähe der Praxis.",
+		"mitAuto": "In der Bahrenfelder Straße und den Seitenstraßen stehen Parkmöglichkeiten zur Verfügung.",
+		"hinweis": "Die Praxis ist barrierefrei über eine Rampe und einen Aufzug erreichbar."
 	},
 	"karteEmbed": ""
 }

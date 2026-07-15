@@ -1,0 +1,5 @@
+# Approve build scripts for these dependencies (pnpm 10+ blocks them by default).
+allowBuilds:
+  esbuild: true
+onlyBuiltDependencies:
+  - esbuild

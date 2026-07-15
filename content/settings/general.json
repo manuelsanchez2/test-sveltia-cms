@@ -1,25 +1,25 @@
 {
-	"praxisName": "Praxis Dr. med. Katharina Bergmann",
-	"claim": "Hausärztliche Versorgung in Hamburg-Winterhude",
+	"praxisName": "Hausärzte Ottensen · Dr. med. Katrin Pelka",
+	"claim": "Hausärztliche Versorgung in Hamburg-Ottensen",
 	"adresse": {
-		"strasse": "Mühlenkamp 12",
-		"plz": "22303",
+		"strasse": "Bahrenfelder Straße 244",
+		"plz": "22765",
 		"stadt": "Hamburg"
 	},
-	"telefon": "040 279 41 80",
-	"fax": "040 279 41 89",
-	"email": "praxis@dr-bergmann-hamburg.de",
+	"telefon": "040 5330 3040",
+	"fax": "040 5330 3041",
+	"email": "dr.pelka@hamburg.de",
 	"sprechzeiten": [
-		{ "tage": "Mo, Di, Do", "von": "08:00", "bis": "12:00", "hinweis": "" },
-		{ "tage": "Mo, Di, Do", "von": "15:00", "bis": "18:00", "hinweis": "" },
-		{ "tage": "Mi, Fr", "von": "08:00", "bis": "12:00", "hinweis": "" },
-		{ "tage": "Nachmittags", "von": "", "bis": "", "hinweis": "nach Vereinbarung" }
+		{ "tage": "Mo & Do", "von": "09:15", "bis": "13:00", "hinweis": "" },
+		{ "tage": "Mo & Do", "von": "16:00", "bis": "18:00", "hinweis": "" },
+		{ "tage": "Di", "von": "09:15", "bis": "13:00", "hinweis": "" },
+		{ "tage": "Mi & Fr", "von": "09:15", "bis": "14:00", "hinweis": "" }
 	],
-	"terminLink": "https://www.doctolib.de/",
+	"terminLink": "https://116117.de",
 	"notdienstHinweis": "Außerhalb der Sprechzeiten erreichen Sie den ärztlichen Bereitschaftsdienst unter der bundesweiten Rufnummer 116 117. In lebensbedrohlichen Notfällen wählen Sie bitte den Notruf 112.",
 	"seo": {
-		"titleSuffix": "Praxis Dr. Bergmann · Hamburg",
-		"description": "Hausärztliche Praxis Dr. med. Katharina Bergmann in Hamburg-Winterhude. Allgemeinmedizin, Vorsorge und persönliche Betreuung. Jetzt Termin vereinbaren.",
+		"titleSuffix": "Hausärzte Ottensen · Hamburg",
+		"description": "Hausärztliche Praxis Dr. med. Katrin Pelka in Hamburg-Ottensen. Allgemeinmedizin, Sport- und Ernährungsmedizin, Vorsorge, Reise- und Betriebsmedizin. Jetzt Termin vereinbaren.",
 		"ogImage": "/uploads/og-default.jpg"
 	}
 }

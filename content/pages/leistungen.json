@@ -1,15 +1,16 @@
 {
 	"eyebrow": "Leistungen",
 	"titel": "Unsere Leistungen",
-	"einleitung": "Als hausärztliche Praxis sind wir Ihre erste Anlaufstelle für nahezu alle gesundheitlichen Fragen. Hier finden Sie einen Überblick über unser Leistungsspektrum.",
+	"einleitung": "Als hausärztliche Praxis sind wir Ihre erste Anlaufstelle für nahezu alle gesundheitlichen Fragen. Neben der ärztlichen Basisversorgung bieten wir zahlreiche Zusatz- und Selbstzahlerleistungen sowie Betriebsmedizin an. Hier finden Sie einen Überblick.",
 	"leistungen": [
-		{ "titel": "Hausärztliche Grundversorgung", "beschreibung": "Diagnostik und Behandlung akuter und chronischer Erkrankungen sowie Koordination Ihrer weiteren fachärztlichen Versorgung." },
-		{ "titel": "Gesundheits-Check-up", "beschreibung": "Regelmäßige Vorsorgeuntersuchung zur Früherkennung von Herz-Kreislauf-, Nieren- und Stoffwechselerkrankungen." },
-		{ "titel": "Hautkrebs-Screening", "beschreibung": "Gründliche Untersuchung der Haut zur frühzeitigen Erkennung von Hautveränderungen ab dem 35. Lebensjahr." },
-		{ "titel": "Impfungen & Reisemedizin", "beschreibung": "Beratung und Durchführung aller Standardimpfungen sowie individuelle Reiseimpfberatung." },
-		{ "titel": "DMP – Chronikerprogramme", "beschreibung": "Strukturierte Behandlungsprogramme bei Diabetes mellitus, koronarer Herzkrankheit, Asthma und COPD." },
-		{ "titel": "Kleine Chirurgie & Wundversorgung", "beschreibung": "Versorgung kleinerer Wunden, Entfernung von Hautveränderungen und Nahtmaterial." },
-		{ "titel": "EKG & Langzeitmessungen", "beschreibung": "Ruhe-EKG, Langzeit-EKG und Langzeit-Blutdruckmessung in der Praxis." },
-		{ "titel": "Labordiagnostik", "beschreibung": "Blutentnahme und Laboruntersuchungen zur Abklärung und Verlaufskontrolle." }
+		{ "titel": "Technische Diagnostik", "beschreibung": "EKG, Ergometrie, Lungenfunktionsprüfung, Langzeit-Blutdruckmessung sowie Sonographie von Abdomen und Schilddrüse." },
+		{ "titel": "Laboruntersuchungen", "beschreibung": "Blutentnahme und Laboranalytik zur Abklärung und Verlaufskontrolle, inklusive Laktoseintoleranz- und CRP-Test." },
+		{ "titel": "Allergietestung & Hyposensibilisierung", "beschreibung": "Diagnostik von Allergien und Durchführung der spezifischen Immuntherapie (Hyposensibilisierung)." },
+		{ "titel": "DMP – Chronikerprogramme", "beschreibung": "Strukturierte Behandlungsprogramme bei Diabetes mellitus, Asthma, COPD und koronarer Herzkrankheit – inklusive Diabetikerschulung." },
+		{ "titel": "Psychosomatische Grundversorgung", "beschreibung": "Begleitung bei psychosomatischen Beschwerden im Rahmen der hausärztlichen Versorgung." },
+		{ "titel": "Impfungen & Reisemedizin", "beschreibung": "Impfberatung, Impfcheck, Standard- und Reiseimpfungen für Ihre Gesundheit unterwegs." },
+		{ "titel": "Sport- & Ernährungsmedizin", "beschreibung": "Sportärztlicher Check, Fitness-Laktatmessung und individuelle Ernährungsberatung." },
+		{ "titel": "Verkehrs- & Betriebsmedizin", "beschreibung": "Führerschein- und verkehrsmedizinische Untersuchungen, Fahrtauglichkeitsprüfungen sowie arbeitsmedizinische G-Untersuchungen." },
+		{ "titel": "Vorsorge & Atteste", "beschreibung": "Vorsorge-Checks über die GKV-Leistungen hinaus, Naturheilverfahren, Patientenverfügungen und ärztliche Atteste." }
 	]
 }
