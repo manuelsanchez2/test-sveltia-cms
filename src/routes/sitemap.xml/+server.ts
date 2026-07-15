@@ -3,7 +3,7 @@ import type { RequestHandler } from './$types';
 export const prerender = true;
 
 const base = 'https://www.dr-bergmann-hamburg.de';
-const routes = ['/', '/leistungen', '/praxis', '/team', '/kontakt', '/impressum', '/datenschutz'];
+const routes = ['/', '/leistungen', '/praxis', '/team', '/rezept', '/kontakt', '/impressum', '/datenschutz'];
 
 export const GET: RequestHandler = () => {
 	const urls = routes

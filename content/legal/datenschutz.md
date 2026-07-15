@@ -10,10 +10,10 @@ Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Wir ve
 
 Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
-Praxis Dr. med. Katharina Bergmann
-Mühlenkamp 12, 22303 Hamburg
-Telefon: 040 279 41 80
-E-Mail: praxis@dr-bergmann-hamburg.de
+Dr. med. Katrin Pelka
+Bahrenfelder Straße 244, 22765 Hamburg
+Telefon: 040 5330 3040
+E-Mail: dr.pelka@hamburg.de
 
 ## 3. Hosting
 

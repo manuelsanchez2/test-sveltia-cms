@@ -1,8 +1,8 @@
 {
   "hero": {
-    "eyebrow": "Hausarztpraxis in Winterhude",
-    "titel": "Medizin mit Ruhe, Zeit und Vertrauen. Hi Frau Pelka!",
-    "untertitel": "Wir begleiten Sie und Ihre Familie hausärztlich – von der Vorsorge bis zur Behandlung chronischer Erkrankungen. Persönlich, gründlich und auf Augenhöhe.",
+    "eyebrow": "Hausarztpraxis in Ottensen",
+    "titel": "Medizin, die den ganzen Menschen sieht.",
+    "untertitel": "Wir begleiten Sie und Ihre Familie hausärztlich – von der Vorsorge über die Behandlung akuter und chronischer Erkrankungen bis zur Sport-, Ernährungs- und Reisemedizin. Ganzheitlich, gründlich und auf Augenhöhe.",
     "primaryCtaText": "Termin vereinbaren",
     "secondaryCtaText": "Unsere Leistungen"
   },
@@ -13,21 +13,21 @@
     "highlights": [
       {
         "titel": "Hausärztliche Grundversorgung",
-        "text": "Erste Anlaufstelle bei akuten und chronischen Beschwerden."
+        "text": "Erste Anlaufstelle bei akuten und chronischen Beschwerden – inklusive technischer Diagnostik und Labor."
       },
       {
         "titel": "Vorsorge & Check-up",
-        "text": "Gesundheits-Check, Hautkrebs-Screening und Impfberatung."
+        "text": "Gesundheits-Check, Sportärztlicher Check, Impfberatung und Reisemedizin."
       },
       {
         "titel": "Chronikerbetreuung (DMP)",
-        "text": "Strukturierte Betreuung bei Diabetes, Asthma und KHK."
+        "text": "Strukturierte Betreuung bei Diabetes, Asthma, COPD und koronarer Herzkrankheit."
       }
     ]
   },
   "zitat": {
-    "text": "Gute Medizin beginnt mit Zuhören. Wir nehmen uns die Zeit, die Ihre Gesundheit verdient.",
-    "quelle": "Dr. med. Katharina Bergmann"
+    "text": "Für mich ist mein Beruf der schönste der Welt. Es macht mir Freude, Menschen ganzheitlich zu betrachten und sie in ihrem Lebensumfeld zu behandeln und zu begleiten.",
+    "quelle": "Dr. med. Katrin Pelka"
   },
   "ctaAbschnitt": {
     "titel": "Wir freuen uns auf Sie",

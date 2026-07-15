@@ -8,6 +8,7 @@
 		{ href: '/leistungen', label: 'Leistungen' },
 		{ href: '/praxis', label: 'Die Praxis' },
 		{ href: '/team', label: 'Team' },
+		{ href: '/rezept', label: 'Rezept' },
 		{ href: '/kontakt', label: 'Kontakt' }
 	];
 

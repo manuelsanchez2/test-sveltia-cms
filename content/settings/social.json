@@ -1,7 +1,3 @@
 {
-	"links": [
-		{ "plattform": "jameda", "url": "https://www.jameda.de/" },
-		{ "plattform": "doctolib", "url": "https://www.doctolib.de/" },
-		{ "plattform": "instagram", "url": "" }
-	]
+	"links": []
 }
